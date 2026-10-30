@@ -1169,3 +1169,20 @@ a {
   }
 }
 
+
+.projects-note {
+  max-width: 780px;
+  margin: 20px 0 0;
+  padding-left: 14px;
+  border-left: 2px solid var(--purple);
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+@media (max-width: 760px) {
+  .projects-note {
+    margin-top: 16px;
+    font-size: 13px;
+  }
+}
